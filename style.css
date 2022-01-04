@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: 'Shizuru', cursive;
+    background-color: black;
+}
+.heading{
+    font-size: 10vh;
+    color: rgb(212, 89, 243);
+    text-align: center;
+}
+.instructions{
+    width: 70vw;
+    background-color: rgba(233, 57, 198, 0.152);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5rem;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+}
+.container{
+    width: max-content;
+    height: max-content;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 1.5vh solid rgb(128, 3, 76);
+}
+.b{
+    display: flex;
+}
+#d1{
+    width: 23.5vh;
+    height: 23.5vh;
+    border: 0.3vh solid rgb(22, 9, 48);
+}
+#d2{
+    width: 23.5vh;
+    height: 23.5vh;
+    border: 0.3vh solid rgb(22, 9, 48);
+}
+.c{
+    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    background-image: url("e1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 21.5vh;
+    margin-top: 12vh;
+}
+#d3{
+    width: 23.5vh;
+    height: 23.5vh;
+    border: 0.3vh solid rgb(22, 9, 48);
+}
+#d4{
+    width: 23.5vh;
+    height: 23.5vh;
+    border: 0.3vh solid rgb(22, 9, 48);
+}
+.c2{
+    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    background-image: url("e2.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top: -2.5vh;
+}
+.c3{
+    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    background-image: url("e2.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 33vh;
+    margin-top: -2.5vh;
+}
+.i1{
+    background-image: url("4.jpg");
+    background-size: cover;
+}
+.i2{
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+.i3{
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+.i4{
+    background-image: url("2.jpg");
+    background-size: cover;
+}
+@media only screen and (max-width: 766px){
+    .instructions{
+        width: 90vw;
+    }
+    #p{
+        padding-left: 5vw;
+    }
+    #d1{
+        width: 45vw;
+        height: 45vw;
+    }
+    #d2{
+        width: 45vw;
+        height: 45vw;
+    }
+    #d3{
+        width: 45vw;
+        height: 45vw;
+    }
+    #d4{
+        width: 45vw;
+        height: 45vw;
+    }
+    .c{
+        height: 12vw;
+        width: 12vw;
+        margin-left: 40.5vw;
+        margin-top: 18vw;
+    }
+    .c2{
+        height: 12vw;
+        width: 12vw;
+        margin-left: 18vw;
+        margin-top: -2.5vh;
+    }
+    .c3{
+        height: 12vw;
+        width: 12vw;
+        margin-left: 65vw;
+        margin-top: -2.5vh;
+    }
+}
