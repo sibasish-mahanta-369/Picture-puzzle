@@ -54,7 +54,7 @@ body{
     background-size: cover;
     border-radius: 10px;
     margin-left: 21.5vh;
-    margin-top: 12vh;
+    margin-top: 10vh;
 }
 #d3{
     width: 23.5vh;
@@ -101,6 +101,25 @@ body{
 .i4{
     background-image: url("2.jpg");
     background-size: cover;
+}
+.ctl{
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    justify-content: space-around;
+}
+.btn{
+    color:yellow;
+    font-size: 4vh;
+    width: max-content;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("btb.jpg");
+    background-size: cover;
+    padding: 0.5rem;
+    display: inline;
+    border-radius: 10px;
+    border: 2px solid rgb(181, 1, 181);
+    box-shadow: 5px 5px 10px rgba(152, 3, 211, 0.508), -5px -5px 10px black;
 }
 @media only screen and (max-width: 766px){
     .instructions{
